@@ -7,7 +7,7 @@ var fs = require('fs');
 app.get('/', function(request, response) {
 
 
-fs.readFile('helloworld.txt', function (err, data) {
+fs.readFile('index.html', function (err, data) {
     if (err) throw err;
     data.toString();
 });
