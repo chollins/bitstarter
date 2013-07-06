@@ -5,7 +5,7 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
 
 
-var fs.readFile('helloworld.txt', function (err, data) {
+fs.readFile('helloworld.txt', function (err, data) {
     if (err) throw err;
     data.toString();
 });
