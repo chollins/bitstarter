@@ -55,10 +55,14 @@
         font-size: 24px;
         line-height: 30px;
       }
-      p {
-        font-size: 18px;
-        line-height: 24px;
+      p, li {
+        font-size: 16px;
+        line-height: 22px;
       }
+        
+        li {
+      padding-top: 3px;  
+        }
 
       /* Video pitch and Action */
       .pitch {
@@ -133,19 +137,18 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>The Digital Production Assistant</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">One sentence description.</p>
-        </div>
+          <p class="lead">Web and mobile tools  for optimizing film production workflow.</p></div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/jgoj5Jj.jpg">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -200,43 +203,34 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/jgoj5Jj.jpg">
         </div>
         <div class="span5 copy">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
-        </div>
+          <p>The Digital Production Assistant is a suite of online digital tools that: </p>
+          <ul>
+            <li>Lets you both visualize your film project at a glance and drill down to examine specific details</li>
+            <li>Provides cast and crew with immediate access to important information using email and text messaging</li>
+            <li>Eliminates paperwork, repetitive data entry and other clerical activities</li>
+            <li>Saves time by reusing relevant information across multiple modules, such as script breakdowns, shot lists, locations, schedules, and camera logs</li>
+            <li>Integrates relevant information into the Digital Slate - a tablet app that greatly simplfies the on-set film shoot</li></ul></div>
       </div>
 
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
+          To illustrate  the value of the Digital Production Assistant, consider the script breakdown process. Standard paper forms (see <a href="http://bit.ly/11ua5ZS">http://bit.ly/11ua5ZS</a> for an example) are used to list key elements of each scene. These include cast members, stunts, extras, special effects, props, vehicles, wardrobe, makeup, sound, equipment, and miscellaneous production notes. </p>
+          <p>Using breakdown sheets helps identify the resources needed for a project. Using paper forms however, limits this information a specific view. Each sheet provides details about one scene. But, what if the Producer needs: </p>
+          <ul>
+            <li>A list of the scenes that include the leading actor </li>
+            <li>A list of the scenes that require the use of vehicle </li>
+            <li>A list of all of the props needed for the entire film </li>
+            <li>A summary of the special effects needed for the first 5 scenes </li>
+          </ul>
+          <p>Use of hard copy breakdown sheets require that a Production Assistant or another crew member manually inspect the relevant boxes on each sheet to compile a list or report of the information. The more scenes the film has, the more time it will take to obtain the information, and the less accurate the results will be since a relevant detail could easily be missed. </p>
+          <p>Instead, use  the Digital Production Assistant to instantly generate the above reports and organize script breakdown information in an endless variety of ways. Regardless of the number of scenes in the project, obtaining accurate search results will be near instantaneous.</p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/ta6EbCy.jpg">
         </div>
       </div>
 
@@ -251,12 +245,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    Since you're releasing modules gradually, what can I expect to see in the first version?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    In addition to managing general production  details for each project, version 1 will include the script breakdown module described above.
                   </div>
                 </div>
               </div>
@@ -264,12 +258,54 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
-                  </a>
+                    Ok Cool. So when will the other features be released?</a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    We're hoping to release a new feature each quarter.  But this may accelerate depending on the amount of donations recieved and the number of users who sign up. </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion3" href="#collapseThree">
+                    This sounds great, but how much will it cost?</a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    The first 250 users who register will have access to manage one production project. Users who register after that point can try the application free for 30 days, and thereafter pay $15 per project, per month  for unlimited access. </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion4" href="#collapseFour">
+                    Ok, let's say I decide to cancel my account. Is there a way to save all of my information? </a>
+                </div>
+                <div id="collapseFour" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    Yes. At any point you can export all of the data in your project and store a copy on your local computer.  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion5" href="#collapseFive">
+                    The Digital Slate mobile app sounds intruging. Tell me more.</a>
+                </div>
+                <div id="collapseFive" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    As you already know if you're a filmmaker, a clapperboard is a device used in filmmaking and video production to assist in the synchronizing of picture and sound, and to designate and mark particular scenes and takes recorded during a production. The Digital Slate simulates the movement and sound of a physical slate. But more importantly, it integrates project information in the Digital Production Assistant. The Digital Slate retreives and displays details about the setup and scene being shot. New details regarding each recorded take can be entered into the Digital Slate app and submitted to the DPA. A camera log is thus generated on set, during the shoot. </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse"
+                     data-parent="#accordion6" href="#collapseSix">
+                    I'm concerned about overlap. I already use several cloud applications for file sharing, calendar and contact management and other tasks.  </a>
+                </div>
+                <div id="collapseSix" class="accordion-body collapse">
+                  <div class="accordion-inner">Integration ranks highly on our list of priorities. Many Web applications such as Dropbox, Google Contacts, Google Calendar, and IMDB have Web services and APIs. These tools will allow us to integrate the data and functionality of these popular services into the the Digital Production Assistant. Our goal is to make it so that you can update data once and have the changes automatically syncronized. <br>
                   </div>
                 </div>
               </div>
